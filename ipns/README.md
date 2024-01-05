@@ -16,8 +16,8 @@ import (
 	"crypto/rand"
 	"time"
 
-	"github.com/ipfs/boxo/ipns"
-	"github.com/ipfs/boxo/path"
+	"github.com/peterargue/boxo/ipns"
+	"github.com/peterargue/boxo/path"
 	ic "github.com/libp2p/go-libp2p/core/crypto"
 )
 

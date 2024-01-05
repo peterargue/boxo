@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"strconv"
 
-	"github.com/ipfs/boxo/bitswap/client/wantlist"
-	bsmsg "github.com/ipfs/boxo/bitswap/message"
+	"github.com/peterargue/boxo/bitswap/client/wantlist"
+	bsmsg "github.com/peterargue/boxo/bitswap/message"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	blocksutil "github.com/ipfs/go-ipfs-blocksutil"

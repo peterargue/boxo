@@ -5,10 +5,10 @@ import (
 	"sync"
 	"testing"
 
-	bsmsg "github.com/ipfs/boxo/bitswap/message"
-	bsnet "github.com/ipfs/boxo/bitswap/network"
+	bsmsg "github.com/peterargue/boxo/bitswap/message"
+	bsnet "github.com/peterargue/boxo/bitswap/network"
 
-	mockrouting "github.com/ipfs/boxo/routing/mock"
+	mockrouting "github.com/peterargue/boxo/routing/mock"
 	blocks "github.com/ipfs/go-block-format"
 	delay "github.com/ipfs/go-ipfs-delay"
 

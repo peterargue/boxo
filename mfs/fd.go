@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	mod "github.com/ipfs/boxo/ipld/unixfs/mod"
+	mod "github.com/peterargue/boxo/ipld/unixfs/mod"
 
 	context "context"
 

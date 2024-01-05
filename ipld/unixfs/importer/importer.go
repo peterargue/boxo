@@ -3,11 +3,11 @@
 package importer
 
 import (
-	bal "github.com/ipfs/boxo/ipld/unixfs/importer/balanced"
-	h "github.com/ipfs/boxo/ipld/unixfs/importer/helpers"
-	trickle "github.com/ipfs/boxo/ipld/unixfs/importer/trickle"
+	bal "github.com/peterargue/boxo/ipld/unixfs/importer/balanced"
+	h "github.com/peterargue/boxo/ipld/unixfs/importer/helpers"
+	trickle "github.com/peterargue/boxo/ipld/unixfs/importer/trickle"
 
-	chunker "github.com/ipfs/boxo/chunker"
+	chunker "github.com/peterargue/boxo/chunker"
 	ipld "github.com/ipfs/go-ipld-format"
 )
 

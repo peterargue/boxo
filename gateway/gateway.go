@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/gateway/assets"
-	"github.com/ipfs/boxo/ipld/unixfs"
-	"github.com/ipfs/boxo/path"
+	"github.com/peterargue/boxo/files"
+	"github.com/peterargue/boxo/gateway/assets"
+	"github.com/peterargue/boxo/ipld/unixfs"
+	"github.com/peterargue/boxo/path"
 	"github.com/ipfs/go-cid"
 )
 

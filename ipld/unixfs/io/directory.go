@@ -5,12 +5,12 @@ import (
 	"errors"
 	"os"
 
-	"github.com/ipfs/boxo/ipld/unixfs/hamt"
-	"github.com/ipfs/boxo/ipld/unixfs/private/linksize"
+	"github.com/peterargue/boxo/ipld/unixfs/hamt"
+	"github.com/peterargue/boxo/ipld/unixfs/private/linksize"
 
 	"github.com/alecthomas/units"
-	mdag "github.com/ipfs/boxo/ipld/merkledag"
-	format "github.com/ipfs/boxo/ipld/unixfs"
+	mdag "github.com/peterargue/boxo/ipld/merkledag"
+	format "github.com/peterargue/boxo/ipld/unixfs"
 	"github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
 	logging "github.com/ipfs/go-log/v2"

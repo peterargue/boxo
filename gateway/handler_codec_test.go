@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ipfs/boxo/path"
+	"github.com/peterargue/boxo/path"
 	"github.com/stretchr/testify/require"
 )
 

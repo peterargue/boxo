@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	ft "github.com/ipfs/boxo/ipld/unixfs"
-	h "github.com/ipfs/boxo/ipld/unixfs/importer/helpers"
+	ft "github.com/peterargue/boxo/ipld/unixfs"
+	h "github.com/peterargue/boxo/ipld/unixfs/importer/helpers"
 
-	dag "github.com/ipfs/boxo/ipld/merkledag"
+	dag "github.com/peterargue/boxo/ipld/merkledag"
 	cid "github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
 )

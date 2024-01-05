@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	blockstore "github.com/ipfs/boxo/blockstore"
-	u "github.com/ipfs/boxo/util"
+	blockstore "github.com/peterargue/boxo/blockstore"
+	u "github.com/peterargue/boxo/util"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 	ds_sync "github.com/ipfs/go-datastore/sync"

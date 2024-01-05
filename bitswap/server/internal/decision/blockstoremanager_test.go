@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/boxo/bitswap/internal/testutil"
-	blockstore "github.com/ipfs/boxo/blockstore"
+	"github.com/peterargue/boxo/bitswap/internal/testutil"
+	blockstore "github.com/peterargue/boxo/blockstore"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"

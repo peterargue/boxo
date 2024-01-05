@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/ipfs/boxo/path"
+	"github.com/peterargue/boxo/path"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"
 )

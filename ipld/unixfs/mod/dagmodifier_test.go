@@ -6,14 +6,14 @@ import (
 	"io"
 	"testing"
 
-	dag "github.com/ipfs/boxo/ipld/merkledag"
-	h "github.com/ipfs/boxo/ipld/unixfs/importer/helpers"
-	trickle "github.com/ipfs/boxo/ipld/unixfs/importer/trickle"
-	uio "github.com/ipfs/boxo/ipld/unixfs/io"
-	testu "github.com/ipfs/boxo/ipld/unixfs/test"
+	dag "github.com/peterargue/boxo/ipld/merkledag"
+	h "github.com/peterargue/boxo/ipld/unixfs/importer/helpers"
+	trickle "github.com/peterargue/boxo/ipld/unixfs/importer/trickle"
+	uio "github.com/peterargue/boxo/ipld/unixfs/io"
+	testu "github.com/peterargue/boxo/ipld/unixfs/test"
 
-	"github.com/ipfs/boxo/ipld/unixfs"
-	u "github.com/ipfs/boxo/util"
+	"github.com/peterargue/boxo/ipld/unixfs"
+	u "github.com/peterargue/boxo/util"
 )
 
 func testModWrite(t *testing.T, beg, size uint64, orig []byte, dm *DagModifier, opts testu.NodeOpts) []byte {
